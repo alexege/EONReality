@@ -1,0 +1,44 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+  
+    <div class="wrapper">
+
+        <form action="/" method="post">
+
+            <div class="form-group">
+                <label for="Name">Name</label>
+                <input type="text" id="Name" name="Name" value="" class="form-control"/>
+            </div>
+
+            <div class="form-group">
+                <label for="Email">Email</label>
+                <input type="text" id="Email" name="Email" value="" class="form-control"/>
+            </div>
+
+            <div class="form-group">
+                <label>Gender</label>
+                <input type="radio" name="Gender" value="M" />Male
+                <input type="radio" name="Gender" value="F" />Female
+            </div>
+
+            <div class="form-group">
+                <label>Date Registered</label>
+                <input type="date" name="Date" value="" />
+            </div>
+
+            <div class="form-group">
+                <label>Selected Days</label>
+                <input type="checkbox" name="Days" value="1" />Day 1
+                <input type="checkbox" name="Days" value="2" />Day 2
+                <input type="checkbox" name="Days" value="3" />Day 3
+            </div>
+
+            <div class="form-group">
+                <label>Add. Requests</label>
+                <textarea name="Requests" class="form-control"></textarea>
+            </div>
+
+                <button>Submit</button>
+        </form>
+    </div>

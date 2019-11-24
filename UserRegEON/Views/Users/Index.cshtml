@@ -1,0 +1,75 @@
+﻿@model IEnumerable<UserRegEON.Models.User>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="wrapper">
+
+<p>
+    <a asp-action="Create"><button class="submit_button" value="">+ Add User</button></a>
+</p>
+
+<h3>List of Registrered Users</h3>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.ID)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Email)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Gender)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DateRegistered)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Days)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Requests)
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ID)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Email)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Gender)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DateRegistered)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Days)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Requests)
+                    </td>
+                    @*<td>
+                        <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.ID">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
+                    </td>*@
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

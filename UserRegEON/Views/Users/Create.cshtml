@@ -1,0 +1,55 @@
+﻿@model UserRegEON.Models.User
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+    <div class="wrapper">
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="Name" class="control-label"></label>
+                    <input asp-for="Name" class="form-control" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Email" class="control-label"></label>
+                    <input asp-for="Email" class="form-control" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Gender" class="control-label"></label>
+                    <input type="radio" value="Male" asp-for="Gender" />Male
+                    <input type="radio" value="Female" asp-for="Gender" />Female
+                    <span asp-validation-for="Gender" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="DateRegistered" class="control-label"></label>
+                    <input asp-for="DateRegistered" class="form-control" asp-format="{0:dd/mm/yyyy}"/>
+                    <span asp-validation-for="DateRegistered" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Days" class="control-label"></label>
+                    <input type="checkbox" name="Days" value="Day1" />Day1
+                    <input type="checkbox" name="Days" value="Day2" />Day2
+                    <input type="checkbox" name="Days" value="Day3" />Day3
+                    <span asp-validation-for="Days" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Requests" class="control-label"></label>
+                    <textarea asp-for="Requests" class="form-control"></textarea>
+                    <span asp-validation-for="Requests" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Submit" class="submit_button" />
+                </div>
+            </form>
+    </div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
