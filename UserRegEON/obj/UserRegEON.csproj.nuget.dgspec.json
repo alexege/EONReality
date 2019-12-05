@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programming\\Web\\EONReality\\UserRegEON\\UserRegEON.csproj": {}
+    "C:\\Users\\alexe\\Desktop\\EONReality\\UserRegEON\\UserRegEON.csproj": {}
   },
   "projects": {
-    "D:\\Programming\\Web\\EONReality\\UserRegEON\\UserRegEON.csproj": {
+    "C:\\Users\\alexe\\Desktop\\EONReality\\UserRegEON\\UserRegEON.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programming\\Web\\EONReality\\UserRegEON\\UserRegEON.csproj",
+        "projectUniqueName": "C:\\Users\\alexe\\Desktop\\EONReality\\UserRegEON\\UserRegEON.csproj",
         "projectName": "UserRegEON",
-        "projectPath": "D:\\Programming\\Web\\EONReality\\UserRegEON\\UserRegEON.csproj",
+        "projectPath": "C:\\Users\\alexe\\Desktop\\EONReality\\UserRegEON\\UserRegEON.csproj",
         "packagesPath": "C:\\Users\\alexe\\.nuget\\packages\\",
-        "outputPath": "D:\\Programming\\Web\\EONReality\\UserRegEON\\obj\\",
+        "outputPath": "C:\\Users\\alexe\\Desktop\\EONReality\\UserRegEON\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

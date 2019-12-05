@@ -10,8 +10,8 @@ using UserRegEON.Data;
 namespace UserRegEON.Migrations
 {
     [DbContext(typeof(UserRegEONContext))]
-    [Migration("20191205162903_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20191205165532_InitialMigration")]
+    partial class InitialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

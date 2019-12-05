@@ -34,10 +34,8 @@ function _displayUsers(data) {
         let textNode3 = document.createTextNode(user.gender);
         td4.appendChild(textNode3);
 
-        //Having issue retrieving DateRegistered field from User object
         let td5 = tr.insertCell(4);
-        let textNode4 = document.createTextNode(user.DateRegistered);
-        document.create
+        let textNode4 = document.createTextNode(user.dateRegistered);
         td5.appendChild(textNode4);
 
         let td6 = tr.insertCell(5);
