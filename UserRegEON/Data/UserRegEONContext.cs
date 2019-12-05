@@ -14,6 +14,7 @@ namespace UserRegEON.Data
         {
         }
 
-        public DbSet<UserRegEON.Models.User> User { get; set; }
+        //public DbSet<UserRegEON.Models.User> User { get; set; }
+        public DbSet<User> Users { get; set; }
     }
 }

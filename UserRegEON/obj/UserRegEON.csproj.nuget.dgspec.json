@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alexe\\source\\repos\\UserRegEON\\UserRegEON\\UserRegEON.csproj": {}
+    "D:\\Programming\\Web\\EONReality\\UserRegEON\\UserRegEON.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alexe\\source\\repos\\UserRegEON\\UserRegEON\\UserRegEON.csproj": {
+    "D:\\Programming\\Web\\EONReality\\UserRegEON\\UserRegEON.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexe\\source\\repos\\UserRegEON\\UserRegEON\\UserRegEON.csproj",
+        "projectUniqueName": "D:\\Programming\\Web\\EONReality\\UserRegEON\\UserRegEON.csproj",
         "projectName": "UserRegEON",
-        "projectPath": "C:\\Users\\alexe\\source\\repos\\UserRegEON\\UserRegEON\\UserRegEON.csproj",
+        "projectPath": "D:\\Programming\\Web\\EONReality\\UserRegEON\\UserRegEON.csproj",
         "packagesPath": "C:\\Users\\alexe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexe\\source\\repos\\UserRegEON\\UserRegEON\\obj\\",
+        "outputPath": "D:\\Programming\\Web\\EONReality\\UserRegEON\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -41,6 +41,10 @@
       "frameworks": {
         "netcoreapp3.0": {
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.0.1, )"

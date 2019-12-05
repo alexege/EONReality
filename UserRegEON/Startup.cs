@@ -10,6 +10,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using UserRegEON.Data;
 using Microsoft.EntityFrameworkCore;
+using UserRegEON.Models;
 
 namespace UserRegEON
 {
@@ -46,6 +47,8 @@ namespace UserRegEON
             }
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+
+            app.UseDefaultFiles();
 
             app.UseRouting();
 

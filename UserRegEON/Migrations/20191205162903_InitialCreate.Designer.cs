@@ -10,8 +10,8 @@ using UserRegEON.Data;
 namespace UserRegEON.Migrations
 {
     [DbContext(typeof(UserRegEONContext))]
-    [Migration("20191124204044_Initial")]
-    partial class Initial
+    [Migration("20191205162903_InitialCreate")]
+    partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -60,7 +60,7 @@ namespace UserRegEON.Migrations
 
                     b.HasKey("ID");
 
-                    b.ToTable("User");
+                    b.ToTable("Users");
                 });
 #pragma warning restore 612, 618
         }

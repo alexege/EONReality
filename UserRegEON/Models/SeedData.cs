@@ -16,18 +16,18 @@ namespace UserRegEON.Models
                 serviceProvider.GetRequiredService<DbContextOptions<UserRegEONContext>>()))
             {
                 //Look for any Users
-                if (context.User.Any())
+                if (context.Users.Any())
                 {
                     return; //Database has been seeded
                 }
 
-                context.User.AddRange(
+                context.Users.AddRange(
                     new User
                     {
                         Name = "Alexander Ege",
                         Email = "Alexander@Ege.com",
                         Gender = "M",
-                        DateRegistered = DateTime.Parse("2019-24-10"),
+                        DateRegistered = DateTime.ParseExact("24/10/2019", "dd/MM/yyyy", null),
                         Days = "Day1, Day2",
                         Requests = "None"
                     },
@@ -37,7 +37,7 @@ namespace UserRegEON.Models
                         Name = "Stephen Kaatz",
                         Email = "Stephen@K.com",
                         Gender = "M",
-                        DateRegistered = DateTime.Parse("2019-04-10"),
+                        DateRegistered = DateTime.ParseExact("04/08/2019", "dd/MM/yyyy", null),
                         Days = "Day1, Day2, Day3",
                         Requests = "Private Room"
                     },
@@ -47,7 +47,7 @@ namespace UserRegEON.Models
                         Name = "Jane Doe",
                         Email = "JaneDoe@gmail.com",
                         Gender = "F",
-                        DateRegistered = DateTime.Parse("2019-21-10"),
+                        DateRegistered = DateTime.ParseExact("12/11/2019", "dd/MM/yyyy", null),
                         Days = "Day1",
                         Requests = "Bringing a plus one."
 
