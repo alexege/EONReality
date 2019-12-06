@@ -13,8 +13,6 @@ function _displayUsers(data) {
     const tBody = document.getElementById('users');
     tBody.innerHTML = '';
 
-    const button = document.createElement('button');
-
     data.forEach(user => {
         let tr = tBody.insertRow();
 

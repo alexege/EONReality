@@ -430,9 +430,9 @@ C:\Users\alexe\Desktop\EONReality\UserRegEON\obj\Debug\netcoreapp3.0\UserRegEON.
 C:\Users\alexe\Desktop\EONReality\UserRegEON\obj\Debug\netcoreapp3.0\UserRegEON.dll
 C:\Users\alexe\Desktop\EONReality\UserRegEON\obj\Debug\netcoreapp3.0\UserRegEON.pdb
 C:\Users\alexe\Documents\EON\EONReality\UserRegEON\bin\Debug\netcoreapp3.0\appsettings.Development.json
+C:\Users\alexe\Documents\EON\EONReality\UserRegEON\bin\Debug\netcoreapp3.0\appsettings.json
 C:\Users\alexe\Documents\EON\EONReality\UserRegEON\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
 C:\Users\alexe\Documents\EON\EONReality\UserRegEON\bin\Debug\netcoreapp3.0\UserRegEON.exe
-C:\Users\alexe\Documents\EON\EONReality\UserRegEON\bin\Debug\netcoreapp3.0\appsettings.json
 C:\Users\alexe\Documents\EON\EONReality\UserRegEON\bin\Debug\netcoreapp3.0\UserRegEON.deps.json
 C:\Users\alexe\Documents\EON\EONReality\UserRegEON\bin\Debug\netcoreapp3.0\UserRegEON.runtimeconfig.json
 C:\Users\alexe\Documents\EON\EONReality\UserRegEON\bin\Debug\netcoreapp3.0\UserRegEON.runtimeconfig.dev.json
